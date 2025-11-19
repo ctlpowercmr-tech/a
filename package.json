@@ -1,7 +1,7 @@
 {
   "name": "mon-projet-email",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projet pour envoyer des emails avec EmailJS",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
