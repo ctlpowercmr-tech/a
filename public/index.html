@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Formulaire de Contact</title>
+</head>
+<body>
+    <h1>Contactez-moi</h1>
+    <form id="contact-form">
+        <input type="text" name="from_name" placeholder="Votre nom" required>
+        <input type="email" name="reply_to" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- Inclusion du SDK EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Votre script -->
+    <script src="script.js"></script>
+</body>
+</html>
